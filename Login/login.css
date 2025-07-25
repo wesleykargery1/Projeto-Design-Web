@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  height: 100%;
+  background: linear-gradient(to bottom, #000000, #4d4d4d, #e6e6e6);
+}
+
+nav {
+  background-color: rgb(09, 09, 09);
+    color: white;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    align-items: baseline;
+}
+
+nav h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 24px;
+}
+
+nav h3 {
+  margin: 0 10px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+nav form input[type="search"] {
+  padding: 8px 15px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  width: 500px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main form {
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    width: 25%;
+    height: 417px;
+    margin: 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+main h2 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+main input[type="text"],
+main input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  font-size: 14px;
+}
+
+main p {
+  font-size: 0.85em;
+  margin: 15px 0 10px;
+}
+
+main a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+main button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+main button:hover {
+  background-color: #333;
+}
