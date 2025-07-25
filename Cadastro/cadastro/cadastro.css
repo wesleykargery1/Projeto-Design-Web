@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgb(00, 00, 00);
+    color: white;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav input{
+    padding-top :15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 500px;
+    border-radius: 30px;
+}
+nav h1{
+    font-size: xx-large;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+}
+main form{
+    background-color: rgb(35,35,35);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    width: 25%;
+    height: 450px;
+    margin-top: 30px;
+    border-radius: 30px;
+    color: white;
+    
+}
+form h2{
+    font-size: xx-large;
+    text-align: center;
+}
+main input{
+    padding-top :20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 200px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+main p{
+    font-size: large;
+    text-align: center;
+    margin-top: 20px;
+}
+main button {
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    align-self: center; 
+    margin-left: 100px;
+}
+
+main button:hover {
+    background-color: #ddd;
+}
+
+body {
+    background: linear-gradient(to bottom, #000000, #4d4d4d, #e6e6e6);
+    min-height: 100vh;
+    font-family: sans-serif;
+}
