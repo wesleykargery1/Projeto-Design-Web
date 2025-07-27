@@ -18,7 +18,7 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 35px;
+    padding: 10px;
     color: rgba(255, 255, 255, 1);
 }
 nav img{
@@ -169,4 +169,39 @@ body{
    font-family: "Italiana", sans-serif;
    font-size: 20px;
    
+}
+#More{
+    display: flex;
+    justify-content: space-between;
+
+}
+#More img{
+    height: 300px;
+    width: 200px;
+}
+#Ver{
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5%;
+    background-color: rgba(217, 217, 217, 1);
+}
+footer{
+    background-color: rgba(217, 217, 217, 1);
+    font-family: "Italiana", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.Coluna{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Title{
+    font-size: 40px;
+}
+.Subtitle{
+    font-size: 30px;
 }
