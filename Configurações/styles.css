@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+.italiana-regular{
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#desconto{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    }
+body{
+     margin: 0;
+    font-family: "Italiana", sans-serif;
+}
+nav {
+    align-items: center;
+    flex-grow: 1;
+    background-color: rgba(9, 9, 9, 1);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+nav img{
+    height: 30px;
+}
+#search{
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+    height: 40px;
+    display: flex;
+    border-radius: 25px;
+    flex-grow: 1;
+    color: rgba(121, 115, 115, 1);
+    
+}
+#search button{
+    border: none;
+    background: none;
+}
+#icons{
+    align-items: center;
+    display: flex;
+    gap: 25px;
+}
+.bg{
+    background-color: rgba(245, 245, 245, 1);
+    box-shadow: 2px 5px 5px lightgray;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#flex{
+    margin: 1;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+section{
+    margin: 1%;
+}
+#border{
+    padding-bottom: 5px;
+    border-bottom: solid black;
+}
