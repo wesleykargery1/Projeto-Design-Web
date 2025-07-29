@@ -12,6 +12,7 @@
     width: auto;
     }
 nav {
+    align-items: center;
     flex-grow: 1;
     background-color: rgba(9, 9, 9, 1);
     display: flex;
@@ -22,11 +23,12 @@ nav {
     color: rgba(255, 255, 255, 1);
 }
 nav img{
-    height: 50px;
+    height: 30px;
 }
 #search{
     background-color: rgba(255, 255, 255, 1);
     align-items: center;
+    height: 40px;
     display: flex;
     border-radius: 25px;
     flex-grow: 1;
@@ -47,19 +49,21 @@ body{
     
 }
 #maior img{
-    height: 590px;
-    width: 414px;
+    display: flex;
+    height: auto;
+    width: 314px;
 }
 #menores{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 10px;
 }
 #menores img{
     height: 150px;
     width: 189px;
 }
 #flex{ 
+   flex-wrap: wrap;
    display: flex;
    padding-top: 20px;
    gap: 30px;
@@ -68,8 +72,8 @@ body{
 }
 #bege{
     background-color: rgba(210, 187, 156, 1);
-    width: 200px;
-    height: 190px;
+    width: 170px;
+    height: 125px;
     border: 1px solid #000;
 }
 #texto{
@@ -79,11 +83,12 @@ body{
 }
 #main_sec{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 #opcoes{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 #opcoes button{
     background-color: rgba(217, 217, 217, 1);
@@ -101,7 +106,7 @@ body{
     background-color: rgba(210, 187, 156, 1) ;
 }
 #butao, #butaoo{
-    margin-top: 210px;
+    margin-top: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,6 +130,9 @@ body{
     width: 30px;
 }
 #comentarios{
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
     margin: 20px;
     margin-left: 5%;
     margin-right: 5%;
@@ -155,11 +163,13 @@ body{
     height: 24px;
 }
 #comment{
+    flex-wrap: wrap;
     display: flex;
     gap: 50px;
     margin-top: 20px;
 }
 .session{
+   flex-wrap: wrap;
    border-radius: 10px;
    flex-wrap: wrap;
    flex-grow: 1;
@@ -173,6 +183,7 @@ body{
 #More{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 #More img{
@@ -180,6 +191,7 @@ body{
     width: 200px;
 }
 #Ver{
+    flex-wrap: wrap;
     text-align: center;
     border-radius: 15px;
     padding: 20px;
