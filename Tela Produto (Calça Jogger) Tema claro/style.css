@@ -143,6 +143,7 @@ body{
 }
 
 #comentum{
+    box-shadow: 2px 5px 5px lightgray;
    flex-wrap: wrap;
    flex-direction: column;
    display: flex;
@@ -169,6 +170,7 @@ body{
     margin-top: 20px;
 }
 .session{
+   box-shadow: 2px 5px 5px lightgray;
    flex-wrap: wrap;
    border-radius: 10px;
    flex-wrap: wrap;
@@ -191,6 +193,7 @@ body{
     width: 200px;
 }
 #Ver{
+    box-shadow: 2px 5px 5px lightgray;
     flex-wrap: wrap;
     text-align: center;
     border-radius: 15px;
