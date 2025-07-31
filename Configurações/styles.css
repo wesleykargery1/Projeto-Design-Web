@@ -4,13 +4,6 @@
   font-weight: 400;
   font-style: normal;
 }
-#desconto{
-    background-color: rgba(255, 255, 255, 1);
-    display: flex;
-    justify-content: center;
-    height: auto;
-    width: auto;
-    }
 body{
      margin: 0;
     font-family: "Italiana", sans-serif;
