@@ -54,6 +54,7 @@ nav img{
 body{
     margin: 0;
     font-family: "Italiana", sans-serif;
+    background-color: rgba(53, 53, 53, 1);
 }
 section{
     flex-direction: column;
@@ -62,9 +63,10 @@ section{
 }
 #fundo{
     padding: 20px;
-    background-color: rgba(217, 217, 217, 1);
+    background-color: rgba(83, 83, 83, 1);
     display: flex;
     min-height: 450px;
+    color: black;
     
 }
 #centro{
@@ -73,13 +75,14 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: solid black;
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 2px 5px 5px rgb(158, 155, 155);
+    border-right: solid white;
+    background-color: rgba(217, 217, 217, 1);
+    box-shadow: 2px 5px 5px rgba(217, 217, 217, 1);
 }
 #add{
     margin-bottom: -1px;
     font-size: 30px;
+    color: white;
 }
 #maior{
     font-size: 40px;
@@ -87,5 +90,6 @@ section{
 #t{
     flex-grow: 1;
     margin-top: 450px;
-    border-top: solid black;
+    color: white;
+    border-top: solid white;
 }
